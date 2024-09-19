@@ -1,0 +1,21 @@
+:root{
+    --fundo: rgb(80, 75, 75);
+    --cartão-frente: red;
+    --cartão-verso: purple;
+    --branco: white;
+    --preto: black; 
+    --destaque: yellow;
+}
+
+body{
+    background-color: var(--fundo);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 100%;
+    text-align: center;
+}
