@@ -38,3 +38,15 @@ footer{
 flex-basis: calc(33% - 6rem);
 
 }
+
+.conteudo-cartao h3{
+    border: 1px solid var(--destaque);
+    position: absolute;
+    padding: 0.5rem;
+}
+
+
+.conteudo-cartao p{
+    margin-top: 1rem;
+    padding: 2rem;
+}
