@@ -43,10 +43,17 @@ flex-basis: calc(33% - 6rem);
     border: 1px solid var(--destaque);
     position: absolute;
     padding: 0.5rem;
+    margin: 0.6rem;
+    backface-visibility: hidden;
+    border-radius: 0.5rem;
 }
 
 
 .conteudo-cartao p{
     margin-top: 1rem;
-    padding: 2rem;
+    padding-top: 4rem;
+}
+
+.cartao.active .conteudo-cartao{
+    transform: rotateY('180deg');
 }
