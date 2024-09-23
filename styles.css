@@ -19,3 +19,13 @@ footer{
     width: 100%;
     text-align: center;
 }
+
+#container{
+    padding: 4rem;
+    display: flex;
+}
+
+.conteudo-cartao{
+    background-color: var(--cartão-frente)
+}
+
