@@ -6,7 +6,7 @@ criaCartao(
 
 criaCartao(
     'Lingua Portuguesa',
-    'Característas do romantismo?',
+    'Características do romantismo?',
     'Idealização do amor, natureza, individualismo e liberdade'
 )
 
