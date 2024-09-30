@@ -1,17 +1,17 @@
-:root{
+:root {
     --fundo: rgb(80, 75, 75);
     --cartão-frente: rgb(58, 124, 49);
     --cartão-verso: rgb(73, 28, 17);
     --branco: white;
-    --preto: rgb(0, 0, 0); 
+    --preto: rgb(0, 0, 0);
     --destaque: yellow;
 }
 
-body{
+body {
     background-color: var(--fundo);
 }
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
     background-color: var(--preto);
@@ -20,7 +20,7 @@ footer{
     text-align: center;
 }
 
-#container{
+#container {
     padding: 4rem;
     display: flex;
     flex-wrap: wrap;
@@ -28,21 +28,21 @@ footer{
     gap: 3rem;
 }
 
-.conteudo-cartao{
+.conteudo-cartao {
     background-color: var(--cartão-frente);
     text-align: center;
     height: 100%;
-    transform-style: preserv-3d;
-    transition: tranform 300ms ease-in-out
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out
 }
 
-.cartao{
+.cartao {
     margin: 1rem;
     flex-grow: 1;
-flex-basis: calc(33% - 6rem);
+    flex-basis: calc(33% - 6rem);
 }
 
-.conteudo-cartao h3{
+.conteudo-cartao h3 {
     border: 1px solid var(--destaque);
     position: absolute;
     padding: 0.5rem;
@@ -51,27 +51,26 @@ flex-basis: calc(33% - 6rem);
     border-radius: 0.5rem;
 }
 
-
-.conteudo-cartao p{
+.conteudo-cartao p {
     margin-top: 1rem;
     padding-top: 4rem;
 }
 
-.cartao.active .conteudo-cartao{
+.cartao.active .conteudo-cartao {
     transform: rotateY(180deg);
 }
 
-.resposta-cartao p{
+.resposta-cartao p {
     color: var(--cartão-verso);
     font-weight: 700;
 }
 
-.cartao.active .conteudo-cartao{
+.cartao.active .conteudo-cartao {
     transform: rotateY(180deg);
 }
 
 .pergunta-cartao,
-.resposta-cartao{
+.resposta-cartao {
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
@@ -79,9 +78,8 @@ flex-basis: calc(33% - 6rem);
     box-sizing: border-box;
 }
 
-.resposta-cartao{ 
+.resposta-cartao {
     transform: rotateY(180deg);
-background-color: var(--destaque);
-border: 4px solid var(--cartão-verso);
+    background-color: var(--destaque);
+    border: 4px solid var(--cartão-verso);
 }
-
