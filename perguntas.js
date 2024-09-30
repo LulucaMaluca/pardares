@@ -12,7 +12,7 @@ criaCartao(
 
 criaCartao(
     'Lingua Portuguesa',
-    'Qual período do romatismo?',
+    'Qual período do romantismo?',
     'Início no início do século XIX, aproximadamente 1836.'
 )
 
@@ -79,13 +79,13 @@ criaCartao(
 
 criaCartao(
     'Lingua Portuguesa',
-    'Quais as influencias do barroco?',
+    'Quais as influências do barroco?',
     'Contrarreforma, estética europeia'
 )
 
 criaCartao(
     'Lingua Portuguesa',
-    'Quais as influencias do barroco?',
+    'Quais as influências do barroco?',
     'Poesia, prosa, sermões'
 )
 
