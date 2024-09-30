@@ -97,7 +97,7 @@ criaCartao(
 
 criaCartao(
     'Lingua Portuguesa',
-    'Comparação emtre romantis,o e barroco',
+    'Comparação entre romantismo e barroco',
     'Romantismo é subjetivo, enquanto o Barroco é mais complexo e reflexivo'
 )
 
