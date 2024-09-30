@@ -1,7 +1,7 @@
 :root{
     --fundo: rgb(80, 75, 75);
-    --cartão-frente: red;
-    --cartão-verso: purple;
+    --cartão-frente: rgb(18, 58, 13);
+    --cartão-verso: rgb(73, 28, 17);
     --branco: white;
     --preto: black; 
     --destaque: yellow;
