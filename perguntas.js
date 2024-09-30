@@ -24,7 +24,7 @@ criaCartao(
 
 criaCartao(
     'Lingua Portuguesa',
-    'Qual principal obra do romantismo',
+    'Qual principal obra do romantismo?',
     '"Iracema" de José de Alencar'
 )
 
