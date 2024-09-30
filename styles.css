@@ -58,7 +58,7 @@ flex-basis: calc(33% - 6rem);
 }
 
 .cartao.active .conteudo-cartao{
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
 }
 
 .resposta-cartao p{
